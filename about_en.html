@@ -142,6 +142,31 @@
       </div>
     </div>
   </section>
+  <form id="c21" action="https://formspree.io/f/xkgnwerz" method="post"> <!-- your@email.com yerine kendi mail adresimizi yazıyoruz. -->
+    <div class="input-block">
+      <p><strong>Write Me</strong></p>
+        <label for="contact_author">
+            <strong>Name Surname</strong> (necessary)</label>
+        <input type="text" name="contact_author" id="contact_author" required>
+    </div>
+    <div class="input-block">
+        <label for="_replyto">
+            <strong>E-Mail adress</strong> (necessary)</label>
+        <input type="email" name="_replyto" id="_replyto" required>
+    </div>            
+    <div class="input-block">
+        <label for="contact_subject">
+            <strong>Message subject</strong> (necessary)</label>
+        <input type="text" name="contact_subject" id="contact_subject" required>
+    </div>
+    <div class="textarea-block">
+        <label for="contact_content">
+            <strong>Message</strong> (necessary)</label>
+        <textarea name="contact_content" id="contact_content" required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="https://site.io/thanks.html"> <!-- Form formspree.io adresine gönderildikten sonra tekrar sitenize dönüş yapılarak sitenizdeki thanks.html dosyasının görüntülenmesini sağlıyor. -->
+    <input type="submit" value="GÖNDER">
+</form>
   <section class="container-fluid footer_section">
     <p>
       &copy; 2024 All Rights Reserved By
