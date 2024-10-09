@@ -723,4 +723,10 @@ a:focus {
     text-align: center; /* Centers the text */
     font-weight: bold;
   }
-  
+  @media (max-width: 768px) {
+  #contact-section {
+    position: relative;
+    margin-top: 20px;
+    z-index: 10;
+  }
+}
