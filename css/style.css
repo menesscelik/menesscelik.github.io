@@ -594,7 +594,7 @@ a:focus {
 .info_section {
   background-color: #232323;
   color: #ffffff;
-  padding: 90px 0 45px 0;
+  padding: 100px 0 45px 0;
 }
 
 .info_section h5 {
@@ -711,3 +711,20 @@ a:focus {
   color: #fbfcfd;
 }
 
+
+
+
+
+  
+#c21 {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 1px 0 4px 0;
+    border-radius: 10px;
+    position: absolute; /* Added to ensure the element is correctly positioned */
+    right: 90px;
+    width: 200px;
+    text-align: center; /* Centers the text */
+    font-weight: bold;
+  }
+  
