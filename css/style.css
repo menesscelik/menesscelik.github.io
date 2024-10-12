@@ -594,7 +594,7 @@ a:focus {
 .info_section {
   background-color: #232323;
   color: #ffffff;
-  padding: auto 0 45px 0;
+  padding: auto 0 auto 0;
 }
 
 .info_section h5 {
