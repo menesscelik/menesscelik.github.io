@@ -129,6 +129,42 @@
       </div>
     </div>
   </section>
+  <button id="openModalBtn">Contact Form</button>
+
+  <div id="contactModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form id="c21" action="https://formspree.io/f/xkgnwerz" method="post">
+        <div class="input-block">
+          <p><strong>Contact Me</strong></p>
+          <label for="contact_author"><strong>Full Name</strong> (required)</label>
+          <input type="text" name="contact_author" id="contact_author" required>
+        </div>
+        <div class="input-block">
+          <label for="_replyto"><strong>Email Address</strong> (required)</label>
+          <input type="email" name="_replyto" id="_replyto" required>
+        </div>
+        <div class="input-block">
+          <label for="contact_subject"><strong>Subject</strong> (required)</label>
+          <input type="text" name="contact_subject" id="contact_subject" required>
+        </div>
+        <div class="textarea-block">
+          <label for="contact_content"><strong>Message</strong> (required)</label>
+          <textarea name="contact_content" id="contact_content" required></textarea>
+          <div class="input-block">
+            <label for="contact_file"><strong>Attach File</strong> (optional)</label>
+            <input type="file" name="contact_file" id="contact_file">
+          </div>
+        </div>
+        <input type="hidden" name="_next" value="https://menescelik.me/index.html">
+        <div class="input-block">
+          <br>
+          <input type="submit" value="SEND">
+        </div>
+      </form>
+    </div>
+  </div>
   <section class="info_section">
     <div class="container">
       <div class="row">
@@ -151,6 +187,7 @@
       </div>
     </div>
   </section>
+  
   <section class="container-fluid footer_section">
     <p>&copy; 2024 All Rights Reserved By <a href="https://github.com/menesscelik">Menes</a></p>
   </section>
