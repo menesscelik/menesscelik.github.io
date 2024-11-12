@@ -1,4 +1,4 @@
-# Menes Web Sitesi
+# Kişisel Web Sitesi
 
 Bu proje, kişisel web sitemin HTML ve CSS ile oluşturulmuş bir sürümüdür. Web sitesi, teknolojiye olan ilgimi ve yazılım geliştirme tutkumuzu sergilemek için kullanılıyor. Proje, çeşitli bölümlerle ziyaretçilere projelerim, hakkımda bilgiler ve iletişim seçenekleri sunmaktadır.
 
